@@ -1,0 +1,17 @@
+{
+  "repository": {},
+  "license": "MIT",
+  "scripts": {
+    "deploy": "webpack --mode production",
+    "watch": "webpack --mode development --watch"
+  },
+  "dependencies": {
+    "vue": "^2.6.7"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-plugin-vue": "^5.2.2",
+    "tslint": "^5.13.0",
+    "typescript": "^3.3.3333"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "strict": true,
+    "module": "es2015",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"],
+      "~/*": ["./*"]
+    },
+    "jsx": "preserve",
+    "lib": ["es2015", "dom"]
+  },
+  "files": ["./shims-vue.d.ts"],
+  "include": ["./**/*.ts", "./**/*.vue"],
+  "exclude": ["node_modules"]
+}
